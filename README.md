@@ -7,7 +7,7 @@ Sistema de Data Warehouse desenvolvido para a Direção Regional de Estatística
 Sistema completo de gestão de dados estatísticos com:
 - Suporte a análises multidimensionais complexas
 - Integração com IA e chatbots
-- Interface multilíngue (PT/EN)
+- Interface multilíngua (PT/EN)
 - Estrutura hierárquica flexível
 - Otimização para Azure PostgreSQL
 
@@ -33,7 +33,7 @@ Temas
                 └── Dimensões (via Bridge Table)
 ```
 
-## 🚀 Quick Start
+## 🚀 Ínicio
 
 1. **Pré-requisitos**
 ```sql
@@ -76,9 +76,11 @@ drem_dw_db/
 │   └── azure_otimizations.sql
 ├── docs/
 │   ├── architecture.md
-│   ├── tables.md
+│   ├── configuration.md
+│   ├── diagram.md
 │   ├── dimensions.md
-│   └── maintenance.md
+│   ├── maintenance.md
+│   └── tables.md
 └── README.md
 ```
 
@@ -92,7 +94,7 @@ drem_dw_db/
 
 ## ⚙️ Configuração
 
-Veja nossa [documentação de configuração](docs/configuration.md) para instruções detalhadas sobre:
+Veja a [documentação de configuração](docs/configuration.md) para instruções detalhadas sobre:
 - Configuração do PostgreSQL
 - Otimizações para Azure
 - Gestão de partições
@@ -111,7 +113,7 @@ Veja nossa [documentação de configuração](docs/configuration.md) para instru
   - Estrutura modular expansível
 
 - **Integração**
-  - API para chatbots
+  - API REST
   - Suporte a IA
   - Exportação flexível
 
@@ -119,7 +121,7 @@ Veja nossa [documentação de configuração](docs/configuration.md) para instru
 
 - **Arquivamento Automático**
 - **Gestão de Partições**
-- **Monitorização de Performance**
+- **Monitorização de Desempenho**
 - **Backup e Recuperação**
 
 ## 📞 Contato

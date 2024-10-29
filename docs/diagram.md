@@ -1,3 +1,4 @@
+```mermaid
 erDiagram
     TEMAS ||--o{ SUB_TEMAS : contem
     SUB_TEMAS ||--o{ AREAS : contem
@@ -71,6 +72,7 @@ erDiagram
         TEXT descricao_en
         VARCHAR unidade
         ENUM tipo_valor
+	ENUM estado
         ENUM periodicidade
         VARCHAR fonte
         TEXT metodologia_pt
@@ -140,3 +142,4 @@ erDiagram
         VARCHAR valor_dimensao
         TIMESTAMP created_at
     }
+```
