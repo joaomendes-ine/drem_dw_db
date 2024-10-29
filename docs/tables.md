@@ -22,7 +22,8 @@ Tabela que armazena os temas principais dos dados.
 | created_at     | TIMESTAMP WITH TIME ZONE     | Sim         | Data de criação do tema.                   |
 | updated_at     | TIMESTAMP WITH TIME ZONE     | Sim         | Data de última atualização do tema.        |
 
-Explicação: A tabela `temas` contém informações dos temas principais usados para organizar os dados. 
+### Explicação: 
+A tabela `temas` contém informações dos temas principais usados para organizar os dados. 
 
 #### Lista atual dos temas:
 1. Economia
@@ -53,7 +54,7 @@ Explicação: A tabela `temas` contém informações dos temas principais usados
 | `created_at`             | TIMESTAMP WITH TIME ZONE  | Sim         | Data de criação do subtema.                                                                      |
 | `updated_at`             | TIMESTAMP WITH TIME ZONE  | Sim         | Data de última atualização do subtema.                                                            |
 
-### Explicação
+### Explicação:
 A tabela `sub_temas` organiza temas em categorias menores. Por exemplo, dentro de "Economia", temos o sub-tema "Turismo".
 
 #### Lista atual dos sub-temas:
@@ -100,10 +101,10 @@ A tabela `sub_temas` organiza temas em categorias menores. Por exemplo, dentro d
 | `created_at`             | TIMESTAMP WITH TIME ZONE  | Sim         | Data de criação da área.                                                                         |
 | `updated_at`             | TIMESTAMP WITH TIME ZONE  | Sim         | Data de última atualização da área.                                                              |
 
-### Explicação
+### Explicação:
 Esta tabela guarda áreas específicas dentro de cada subtema. Por exemplo, dentro do subtema "Turismo" podemos ter as áreas: "Oferta Turística" e “Gastos Turísticos Internacionais".
 
-#### Lista atual dos sub-temas:
+#### Lista atual das areas:
 1. Administração Local
 2. Emprego Público
 3. Procedimentos dos Défices Excessivos
@@ -237,7 +238,7 @@ Esta tabela guarda áreas específicas dentro de cada subtema. Por exemplo, dent
 | `created_at`             | TIMESTAMP WITH TIME ZONE  | Não         | Data e hora de criação do registro.                                                             |
 | `updated_at`             | TIMESTAMP WITH TIME ZONE  | Não         | Data e hora da última atualização do registro.                                                  |
 
-### Explicação
+### Explicação:
 Esta tabela armazena informações sobre diferentes indicadores que podem ser usados para monitorizar e avaliar variáveis específicas em diversas áreas, como saúde, educação, economia e meio ambiente. Cada indicador possui um código único, um nome (em português e, opcionalmente, em inglês), uma descrição, e detalhes sobre a unidade de medida. Além disso, inclui informações sobre a periodicidade de atualização, a fonte dos dados, e a metodologia usada para calcular o indicador. Os indicadores também estão associados a dimensões que ajudam a contextualizar os dados, como o tempo e a geografia, permitindo análises mais detalhadas e significativas.
 
 ---
@@ -260,7 +261,7 @@ Esta tabela armazena informações sobre diferentes indicadores que podem ser us
 | `created_at`             | TIMESTAMP WITH TIME ZONE  | Não         | Data e hora de criação do registro.                                                             |
 | `updated_at`             | TIMESTAMP WITH TIME ZONE  | Não         | Data e hora da última atualização do registro.                                                  |
 
-### Explicação
+### Explicação:
 Esta tabela regista os valores numéricos dos indicadores, incluindo referências a dimensões para análise contextualizada. Os dados podem conter valores atuais, anteriores, variações percentuais e intervalos de confiança. É essencial para a análise estatística, fornecendo dados brutos para relatórios e insights sobre tendências dos indicadores ao longo do tempo, organizados para facilitar comparações e análises.
 
 

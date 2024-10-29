@@ -81,6 +81,8 @@ drem_dw_db/
 │   ├── dimensions.md
 │   ├── maintenance.md
 │   └── tables.md
+├── pdf/
+│   └── doc_drem_dw_db.pdf
 └── README.md
 ```
 
