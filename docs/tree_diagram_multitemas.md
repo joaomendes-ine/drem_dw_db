@@ -1,13 +1,32 @@
 ```mermaid
-graph TD
-    %% Multitemas
-    M[Multitemas] --> M1[ID:87 Anuário]
-    M --> M2[ID:88 Atlas]
-    M --> M3[ID:89 Barómetro]
-    M --> M4[ID:90 Boletim]
-    M --> M5[ID:91 Equipamentos]
-    M --> M6[ID:92 PT2020]
-    M --> M7[ID:93 Madeira]
+graph TB
+   %% Main Theme
+   M((Multitemas))
+   
+   %% Direct connections to main theme
+   M --> A87[Área 87: Anuário]
+   M --> A88[Área 88: Atlas]
+   M --> A89[Área 89: Barómetro]
+   M --> A90[Área 90: Boletim]
+   M --> A91[Área 91: Equipamentos]
+   M --> A92[Área 92: PT2020]
+   M --> A93[Área 93: Madeira Números]
 
-    %% Detalhes para cada área...
+   %% Área connections
+   A87 --> A87F[Em Focos<br>Notícias<br>Publicações]
+   A88 --> A88F[Em Focos<br>Notícias<br>Publicações]
+   A89 --> A89F[Em Focos<br>Notícias<br>Quadros]
+   A90 --> A90F[Notícias<br>Publicações]
+   A91 --> A91F[Em Focos<br>Informação geográfica<br>Notícias<br>Publicações]
+   A92 --> A92F[Notícias<br>Sistema indicadores PT2020]
+   A93 --> A93F[Notícias<br>Publicações]
+
+   %% Styling
+   classDef tema fill:#d4e6f1,stroke:#2874a6,stroke-width:3px
+   classDef area fill:#fdebd0,stroke:#9c640c,stroke-width:1px
+   classDef files fill:#f2d7d5,stroke:#943126,stroke-width:1px
+
+   class M tema
+   class A87,A88,A89,A90,A91,A92,A93 area
+   class A87F,A88F,A89F,A90F,A91F,A92F,A93F files
 ```
