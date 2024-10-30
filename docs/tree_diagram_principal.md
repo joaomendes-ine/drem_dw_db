@@ -14,8 +14,8 @@ graph TD
     class E,S,R,M tema
 
     %% Links
-    click E "../docs/tree_diagram_economia.md"
-    click S "../docs/tree_diagram_social.md"
-    click R "../docs/tree_diagram_regiao.md"
-    click M "../docs/tree_diagram_multitemas.md"
+    click E "./tree_diagram_economia.md"
+    click S "./tree_diagram_social.md"
+    click R "./tree_diagram_regiao.md"
+    click M "./tree_diagram_multitemas.md"
 ```
