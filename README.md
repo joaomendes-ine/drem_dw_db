@@ -93,6 +93,7 @@ drem_dw_db/
 - [Sistema Dimensional](docs/dimensions.md)
 - [Diagrama ER](docs/diagram.md)
 - [Manutenção](docs/maintenance.md)
+- [Descarregar documentação](pdf/doc_drem_dw_db.pdf)
 
 ## ⚙️ Configuração
 
