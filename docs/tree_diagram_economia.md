@@ -1,6 +1,6 @@
 # Diagrama Economia
 
-[⬇️ Descarregar Diagrama](https://raw.githubusercontent.com/joaomendes-ine/drem_dw_db/main/images/tree_diagram_economia.png)
+[![Download](https://img.shields.io/badge/Descarregar-2874a6?style=for-the-badge)](https://github.com/joaomendes-ine/drem_dw_db/blob/main/images/tree_diagram_economia.png)
 
 ```mermaid
 graph TB
