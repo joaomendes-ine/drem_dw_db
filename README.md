@@ -84,6 +84,12 @@ drem_dw_db/
 │   └── tree_diagram_multitemas.md
 ├── pdf/
 │   └── jm_doc_drem_dw_db.pdf
+├── images/
+│   └── jm_tree_diagram_principal.png
+│   └── jm_tree_diagram_economia.png
+│   └── jm_tree_diagram_social.png
+│   └── jm_tree_diagram_regiao.png
+│   └── jm_tree_diagram_multitemas.png
 └── README.md
 ```
 
