@@ -3,7 +3,6 @@
 Sistema de Data Warehouse desenvolvido para a Direção Regional de Estatística da Madeira (DREM), projetado para gerir e disponibilizar dados estatísticos da Região Autónoma da Madeira de forma eficiente e escalável.
 
 ## 📊 Visão Geral
-
 Sistema completo de gestão de dados estatísticos com:
 - Suporte a análises multidimensionais complexas
 - Integração com IA e chatbots
@@ -18,7 +17,6 @@ Sistema completo de gestão de dados estatísticos com:
 - Suporte a milhares de indicadores
 
 ## 🏗️ Arquitetura
-
 Modelo híbrido que combina:
 - Esquema Estrela
 - Esquema Floco de Neve
@@ -33,8 +31,7 @@ Temas
                 └── Dimensões (via Bridge Table)
 ```
 
-## 🚀 Ínicio
-
+## 🚀 Início
 1. **Pré-requisitos**
 ```sql
 -- Requisitos mínimos
@@ -56,11 +53,9 @@ git clone https://github.com/joaomendes-ine/drem_dw_db.git
 - Os scripts devem ser executados sequencialmente (parte 1 a parte 6)
 - Cada script valida a sua própria execução e dependências
 - O script de exemplo de atualização serve como referência para futuras atualizações
-# ... continue com os demais scripts
 ```
 
 ## 📁 Estrutura do Repositório
-
 ```
 drem_dw_db/
 ├── scripts/
@@ -80,55 +75,66 @@ drem_dw_db/
 │   ├── diagram.md
 │   ├── dimensions.md
 │   ├── maintenance.md
-│   └── tables.md
+│   ├── tables.md
+│   ├── tree_stats.md
+│   ├── tree_diagram_principal.md
+│   ├── tree_diagram_economia.md
+│   ├── tree_diagram_social.md
+│   ├── tree_diagram_regiao.md
+│   └── tree_diagram_multitemas.md
 ├── pdf/
 │   └── jm_doc_drem_dw_db.pdf
 └── README.md
 ```
 
 ## 📚 Documentação
+### Documentação Técnica
+- [Arquitetura Detalhada](./docs/architecture.md)
+- [Estrutura das Tabelas](./docs/tables.md)
+- [Sistema Dimensional](./docs/dimensions.md)
+- [Manutenção](./docs/maintenance.md)
+- [Configuração](./docs/configuration.md)
+- [Descarregar Documentação](./pdf/jm_doc_drem_dw_db.pdf)
 
-- [Arquitetura Detalhada](docs/architecture.md)
-- [Estrutura das Tabelas](docs/tables.md)
-- [Sistema Dimensional](docs/dimensions.md)
-- [Diagrama ER](docs/diagram.md)
-- [Manutenção](docs/maintenance.md)
-- [Descarregar documentação](pdf/jm_doc_drem_dw_db.pdf)
+### Diagramas do Sistema
+#### Diagramas de Base de Dados
+- [Diagrama ER](./docs/diagram.md) - Estrutura relacional completa
+
+#### Árvore de Informação Estatística
+- [Visão Geral](./docs/tree_diagram_principal.md) - Estrutura principal
+- [Economia](./docs/tree_diagram_economia.md) - IDs: 1-55
+- [Social](./docs/tree_diagram_social.md) - IDs: 56-75
+- [Região](./docs/tree_diagram_regiao.md) - IDs: 76-86
+- [Multitemas](./docs/tree_diagram_multitemas.md) - IDs: 87-93
 
 ## ⚙️ Configuração
-
-Veja a [documentação de configuração](docs/configuration.md) para instruções detalhadas sobre:
-- Configuração do PostgreSQL
-- Otimizações para Azure
-- Gestão de partições
-- Configuração de índices
+Veja a [documentação de configuração](./docs/configuration.md) para instruções sobre:
+- [Configuração PostgreSQL](./docs/configuration.md#postgresql)
+- [Otimizações Azure](./docs/configuration.md#azure)
+- [Gestão de Partições](./docs/configuration.md#partitions)
+- [Configuração de Índices](./docs/configuration.md#indices)
 
 ## 🔍 Características Principais
-
 - **Análise de Dados**
   - Estruturas OLAP otimizadas
   - Análises multidimensionais
   - Consultas eficientes
-
 - **Escalabilidade**
   - Particionamento automático
   - Gestão eficiente de grandes volumes
   - Estrutura modular expansível
-
 - **Integração**
   - API REST
   - Suporte a IA
   - Exportação flexível
 
 ## 🛠️ Manutenção
-
 - **Arquivamento Automático**
 - **Gestão de Partições**
 - **Monitorização de Desempenho**
 - **Backup e Recuperação**
 
 ## 📞 Contato
-
 - Autor - joao.mendes@ine.pt
 - DREM - drem@ine.pt
 - Website - [https://estatistica.madeira.gov.pt/](https://estatistica.madeira.gov.pt/)

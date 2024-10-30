@@ -239,7 +239,7 @@ Esta tabela guarda áreas específicas dentro de cada subtema. Por exemplo, dent
 | `updated_at`             | TIMESTAMP WITH TIME ZONE  | Não         | Data e hora da última atualização do registro.                                                  |
 
 ### Explicação:
-Esta tabela armazena informações sobre diferentes indicadores que podem ser usados para monitorizar e avaliar variáveis específicas em diversas áreas, como saúde, educação, economia e meio ambiente. Cada indicador possui um código único, um nome (em português e, opcionalmente, em inglês), uma descrição, e detalhes sobre a unidade de medida. Além disso, inclui informações sobre a periodicidade de atualização, a fonte dos dados, e a metodologia usada para calcular o indicador. Os indicadores também estão associados a dimensões que ajudam a contextualizar os dados, como o tempo e a geografia, permitindo análises mais detalhadas e significativas.
+Esta tabela armazena informações sobre diferentes indicadores que podem ser usados para monitorizar e avaliar variáveis específicas nas diversas áreas. Cada indicador possui um código único, um nome (em português e, opcionalmente, em inglês), uma descrição, e detalhes sobre a unidade de medida. Além disso, inclui informações sobre a periodicidade de atualização, a fonte dos dados, e a metodologia usada para calcular o indicador. Os indicadores também estão associados a dimensões que ajudam a contextualizar os dados, como o tempo e a geografia, permitindo análises mais detalhadas e significativas.
 
 ---
 
