@@ -1,14 +1,6 @@
-```markdown
 # Diagrama Economia
 
-<div style="text-align: right; margin-bottom: 20px;">
-    <a href="https://github.com/joaomendes-ine/drem_dw_db/blob/main/images/tree_diagram_economia.png" download="economia_diagram.png">
-        <button style="padding: 10px 20px; background-color: #2874a6; color: white; border: none; border-radius: 5px; cursor: pointer;">
-            Descarregar
-        </button>
-    </a>
-</div>
-```
+[![Download](https://img.shields.io/badge/Descarregar-2874a6?style=for-the-badge)](https://github.com/joaomendes-ine/drem_dw_db/blob/main/images/tree_diagram_social.png)
 
 ```mermaid
 graph TB
