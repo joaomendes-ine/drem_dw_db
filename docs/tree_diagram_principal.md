@@ -1,9 +1,9 @@
 ```mermaid
 graph TD
-    Root[Árvore da Informação Estatística] --> E[Economia<br>12 sub-temas<br>IDs: 1-55]
-    Root --> S[Social<br>5 sub-temas<br>IDs: 56-75]
-    Root --> R[A Região<br>2 sub-temas<br>IDs: 76-86]
-    Root --> M[Multitemas<br>7 áreas<br>IDs: 87-93]
+    Root[Árvore da Informação Estatística] --> E[Economia<br>12 sub-temas]
+    Root --> S[Social<br>5 sub-temas]
+    Root --> R[A Região<br>1 sub-tema]
+    Root --> M[Multitemas]
 
     %% Styling
     classDef default fill:#f9f9f9,stroke:#333,stroke-width:1px
