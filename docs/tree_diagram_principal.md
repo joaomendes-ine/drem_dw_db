@@ -14,8 +14,8 @@ graph TD
     class E,S,R,M tema
 
     %% Links
-    click E "./tree_diagram_economia.md"
-    click S "./tree_diagram_social.md"
-    click R "./tree_diagram_regiao.md"
-    click M "./tree_diagram_multitemas.md"
+    click E "https://github.com/joaomendes-ine/drem_dw_db/blob/main/docs/tree_diagram_economia.md"
+    click S "https://github.com/joaomendes-ine/drem_dw_db/blob/main/docs/tree_diagram_social.md"
+    click R "https://github.com/joaomendes-ine/drem_dw_db/blob/main/docs/tree_diagram_regiao.md"
+    click M "https://github.com/joaomendes-ine/drem_dw_db/blob/main/docs/tree_diagram_multitemas.md"
 ```
