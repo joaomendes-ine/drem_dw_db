@@ -3,8 +3,6 @@
 [⬇️ Descarregar Diagrama](https://raw.githubusercontent.com/joaomendes-ine/drem_dw_db/main/images/tree_diagram_economia.png)
 
 ```mermaid
-
-```mermaid
 graph TB
    %% Main Theme
    E((Economia))
