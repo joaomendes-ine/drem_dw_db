@@ -82,7 +82,7 @@ drem_dw_db/
 │   ├── maintenance.md
 │   └── tables.md
 ├── pdf/
-│   └── doc_drem_dw_db.pdf
+│   └── jm_doc_drem_dw_db.pdf
 └── README.md
 ```
 
