@@ -6,10 +6,10 @@ graph TD
     Root --> M[Multitemas]
     
     %% Links para outros diagramas
-    E --> |Ver Detalhes|E_Detail[tree_diagram_economia.md]
-    S --> |Ver Detalhes|S_Detail[tree_diagram_social.md]
-    R --> |Ver Detalhes|R_Detail[tree_diagram_regiao.md]
-    M --> |Ver Detalhes|M_Detail[tree_diagram_multitemas.md]
+    E --> |Ver Detalhes|E_Detail[./docs/tree_diagram_economia.md]
+    S --> |Ver Detalhes|S_Detail[./docs/tree_diagram_social.md]
+    R --> |Ver Detalhes|R_Detail[./docs/tree_diagram_regiao.md]
+    M --> |Ver Detalhes|M_Detail[./docs/tree_diagram_multitemas.md]
 
     %% Estilo
     classDef default fill:#f9f9f9,stroke:#333,stroke-width:1px;

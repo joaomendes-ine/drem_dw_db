@@ -94,25 +94,29 @@ drem_dw_db/
 - [Sistema Dimensional](./docs/dimensions.md)
 - [Manutenção](./docs/maintenance.md)
 - [Configuração](./docs/configuration.md)
-- [Descarregar Documentação](./pdf/jm_doc_drem_dw_db.pdf)
+- [Árvore de Estatística](./docs/tree_stats.md)
+- [Documentação geral](./pdf/jm_doc_drem_dw_db.pdf)
 
 ### Diagramas do Sistema
 #### Diagramas de Base de Dados
 - [Diagrama ER](./docs/diagram.md) - Estrutura relacional completa
 
-#### Árvore de Informação Estatística
+#### Árvore de Estatística
 - [Visão Geral](./docs/tree_diagram_principal.md) - Estrutura principal
-- [Economia](./docs/tree_diagram_economia.md) - IDs: 1-55
-- [Social](./docs/tree_diagram_social.md) - IDs: 56-75
-- [Região](./docs/tree_diagram_regiao.md) - IDs: 76-86
-- [Multitemas](./docs/tree_diagram_multitemas.md) - IDs: 87-93
+- [Economia](./docs/tree_diagram_economia.md)
+- [Social](./docs/tree_diagram_social.md)
+- [Região](./docs/tree_diagram_regiao.md)
+- [Multitemas](./docs/tree_diagram_multitemas.md)
 
 ## ⚙️ Configuração
 Veja a [documentação de configuração](./docs/configuration.md) para instruções sobre:
-- [Configuração PostgreSQL](./docs/configuration.md#postgresql)
-- [Otimizações Azure](./docs/configuration.md#azure)
-- [Gestão de Partições](./docs/configuration.md#partitions)
-- [Configuração de Índices](./docs/configuration.md#indices)
+- [Configuração PostgreSQL](./docs/configuration.md#1-configurações-base)
+- [Otimizações Azure](./docs/configuration.md#2-otimizações-azure)
+- [Gestão de Partições](./docs/configuration.md#3-gestão-de-partições)
+- [Índices e Desempenho](./docs/configuration.md#4-índices-e-performance)
+- [Monitorização](./docs/configuration.md#5-monitorização)
+- [Manutenção](./docs/configuration.md#6-manutenção)
+- [Resolução de Problemas](./docs/configuration.md#7-resolução-de-problemas)
 
 ## 🔍 Características Principais
 - **Análise de Dados**
