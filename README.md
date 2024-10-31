@@ -73,6 +73,7 @@ drem_dw_db/
 │   ├── architecture.md
 │   ├── configuration.md
 │   ├── diagram.md
+│   ├── diagram_fluxo.md
 │   ├── dimensions.md
 │   ├── maintenance.md
 │   ├── tables.md
@@ -85,6 +86,9 @@ drem_dw_db/
 ├── pdf/
 │   └── jm_doc_drem_dw_db.pdf
 ├── images/
+│   └── jm_diagram_er_dw_db.png
+│   └── jm_diagram_fluxo.png
+│   └── jm_tree_diagram_principal.png
 │   └── jm_tree_diagram_principal.png
 │   └── jm_tree_diagram_economia.png
 │   └── jm_tree_diagram_social.png
