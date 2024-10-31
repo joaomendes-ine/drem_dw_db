@@ -106,7 +106,7 @@ drem_dw_db/
 ### Diagramas do Sistema
 #### Diagramas de Base de Dados
 - [Diagrama ER](./docs/diagram.md) - Estrutura relacional completa
-- [Diagrama de Fluxo](./docs/diagram.md) - Fluxo de População do Data Warehouse
+- [Diagrama de Fluxo](./docs/diagram_fluxo.md) - Fluxo de População do Data Warehouse
 
 #### Árvore de Estatística
 - [Visão Geral](./docs/tree_diagram_principal.md) - Estrutura principal
