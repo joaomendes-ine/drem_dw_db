@@ -14,7 +14,7 @@ Sistema completo de gestão de dados estatísticos com:
 - 4 Temas principais
 - 18 Sub-temas
 - 93 Áreas especializadas
-- Suporte a milhares de indicadores
+- 2000+ indicadores
 
 ## 🏗️ Arquitetura
 Modelo híbrido que combina:
