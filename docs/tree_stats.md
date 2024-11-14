@@ -7,16 +7,22 @@
 
 ## Contagem
 ### Temas
-- Economia (Id: 1-12, total: 12)
-- Social (Id: 13-17, total: 5)
-- A Região (Id: 18, 19, total: 2)
+- Economia
+- Social
+- A Região
 - Multitemas
 
 ### Sub-temas
-- Id: 1-55 (total: 55) [Economia]
+- Id: 1- 12 (total: 12)  [Economia]
+- Id: 13-17 (total: 5) [Social]
+- Id: 18 (total: 1)  [A Região]
+- Id: N/A [Multitemas]
+
+### Áreas
+- Id: 1-55 (total: 55)  [Economia]
 - Id: 56-75 (total: 20) [Social]
 - Id: 76-86 (total: 11) [A Região]
-- Id: 87-93 (total: 7) [Multitemas]
+- Id: Id: 87-93 (total: 7) [Multitemas]
 
 **TOTAL:**
 - 4 Temas
