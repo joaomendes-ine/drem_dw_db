@@ -88,6 +88,7 @@ drem_dw_db/
 ├── images/
 │   └── jm_diagram_er_dw_db.png
 │   └── jm_diagram_fluxo.png
+│   └── jm_hybrid_approach_vs_tradicional.png
 │   └── jm_tree_diagram_principal.png
 │   └── jm_tree_diagram_principal.png
 │   └── jm_tree_diagram_economia.png
