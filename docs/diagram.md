@@ -151,10 +151,10 @@ erDiagram
 - Ligação com dimensões via bridge
 
 **Dimensões:**
-1. Tipo Estabelecimento (Snowflake - hierárquica)
+1. Estabelecimento (Snowflake - hierárquica)
 2. Temporal (Star - plana)
-3. Geográfica (Star - plana)
-4. Categoria Profissional (Star - plana)
+3. Localização (Star - plana)
+4. Perfil (Star - plana)
 
 ### 2. Características típicas de DW
 - Views materializadas para agregações
