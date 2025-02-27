@@ -153,4 +153,4 @@ Veja a [documentação de configuração](./docs/configuration.md) para instruç
 ## 📞 Contato
 - Autor - joao.mendes@ine.pt
 - DREM - drem@ine.pt
-- Website - [https://estatistica.madeira.gov.pt/](https://estatistica.madeira.gov.pt/)
+- Website - [https://drem.aiobi.pt/](https://drem.aiobi.pt/)
